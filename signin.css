@@ -1,0 +1,170 @@
+#container{
+    display: flex;
+    width: 100%;
+    height: 763.2px;
+   bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    top:0;
+    position: fixed;
+}
+#left{
+   
+    width: 40%;
+    flex: 1;
+    background-color: #0d0f12;
+    color: hsla(0,0%,100%,.95);
+}
+#right{
+    border: 1px solid black;
+    width:60%;
+    background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/login/bg-gtm-2020.png");
+    background-color: black;
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+   
+    right: 0;
+    bottom: 0;
+    justify-content: flex-start;
+}
+
+#img{
+    position: relative;
+    top:210px;
+    left:95px;
+}
+#bright{
+   
+   
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    max-width: 150px;
+}
+#bright img{
+    width:150px;
+    height:34.63px
+}
+
+  /* Navbar related css */
+  
+  /* Form related css */
+  input[type="submit"] {
+    background-color: #0074ab;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+  font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 6px;
+  }
+  input[type="submit"]:hover {
+    background-color: #3973b6;
+  }
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    color: hsla(0,0%,100%,.95);
+    background: #0d0f12;
+    border: 1px solid hsla(0,0%,100%,.3);
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 16px;
+  }
+  input[type="password"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    color: hsla(0,0%,100%,.95);
+    background: #0d0f12;
+    border: 1px solid hsla(0,0%,100%,.3);
+   
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  form {
+    margin:  auto;
+    margin-top: 40px;
+    width: 60%;
+   
+    align-items: center;
+  
+    padding: 30px;
+  }
+  #left>#logo{
+    width: 303px;
+    height: 63.93px;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    margin-top: 90px;
+  }
+  .lable{
+    text-align: left;
+    font-size: 16px;
+  }
+ 
+  #logo img{
+    width: 303px;
+    height: 63.93px;
+    vertical-align: middle;
+  }
+  body{
+    font-family: "PS Commons",sans-serif;
+  }
+  p{
+    text-align: center;
+    color: #2ea0d6;
+ margin-bottom: 20px ;
+  }
+  #mid{
+    width: 60%;
+    margin: auto;
+  }
+ button{
+  background-color: rgba(138,153,168,.25);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+  
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 6px;
+ }
+ #bar{
+  flex: auto;
+  border: none;
+  height: 1px;
+  background-color: hsla(0,0%,100%,.15);
+  margin-bottom: 20px;
+ }
+ #free{
+  margin-bottom: 0px;
+  padding: 12px 80px;
+  min-width:230px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s all;
+  border-radius: 2px;
+  background: linear-gradient(to right,#F05A28,#EC008C,#F05A28);
+  color: #fff;
+  text-decoration: none;
+ width: 230px;
+ position: relative;
+ top: 230px;
+ left: 90px;
+ }
