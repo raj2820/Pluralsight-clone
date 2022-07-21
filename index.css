@@ -1,20 +1,20 @@
 *{
     font-family: "PS Commons",sans-serif;
 }
-#mid1{
+#main{
 width: 100%;
-height: 200px;
+height: auto;
 background-color: black;
 
 background-size: contain;
 position: absolute;
 left: 0;
    right: 0;
-top: 570px;
+top: 530px;
 
 }
 #org{
-    width: 60%;
+    width: 55%;
     height: auto;
  
     margin: auto;
@@ -35,17 +35,19 @@ top: 570px;
     height: auto;
     margin: auto;
 }
-h6{
- 
-    font-family: 'PS Commons Bold';
-    font-weight: normal !important;
-    text-transform: uppercase;
-    line-height: 21px;
-    display: block;
-    font-size: 1em;
-    font-family: "PS Commons",sans-serif;
-    font-weight: bold;
-    height: 21px;
+#org h6{
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+  margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #aaa !important;
+    
 }
 #top{
     background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/hero-illustration.png);
@@ -64,72 +66,268 @@ body{
     background-color: black;
     color: white;
 }
-#build{
-    width: 40%;
-    margin: auto;
-    background-color: transparent;
-    margin-top: 85px;
-    color: white;
-    
+
+#plans{
+     background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+     font-size: 15px;
+     letter-spacing: 0.5px;
+     padding: 18px 34px;
+     margin-right: 20px;
+     white-space: normal;
+     border-radius: 2px;
+     line-height: 1.1;
+}
+#free{
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  padding: 18px 34px;
+  border: 1px solid white;
+  white-space: normal;
+  border-radius: 2px;
+  line-height: 1.1;
+}
+#topbtn{
+margin-top: 40px;
+}
+#build p{
+font-size: 17px;
+}
+#line{
+  margin-top: 60px;
+}
+#journeyline{
+  background-color: #000;
+    margin: 0px auto;
+    width: 0%;
+    height: 150px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient( to bottom, #EC008C, #F15B2A, rgba(0, 0, 0, 0) ) 1 100%;
+}
+div{
+  display: block;
+}
+#middle{
+  width: 100%;
+  height: 659.4px;
+background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right.png),
+url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right2.png),url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-left.png);
+background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom right, right, left;
+    background-size: contain;
+margin-top: 20px;
+position: absolute;
 }
 
-ul{
-    margin-top: -14px;
-    margin-left: -20px;
-    line-height: 100%;
+#trending-tech{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+margin-top: 50px;
 }
-.wrapper{
-    display: flex;
-  }
-  .wrapper .static-txt{
-    color: #fff;
-    text-rendering: optimizeLegibility;
-    font-size: 56px;
-    font-weight: 700;
-    justify-content: center;
-    align-items: center;
-    line-height: 100%;
-  }
-  .wrapper .dynamic-txts{
+
+#trending-tech h6{
+  text-align: left;
+  color: #e40084 !important;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  line-height: 1.4;
+ 
+}
+#trending-tech h3{
+  text-align: left;
+  font-size: 32px;
+  margin: 0 0 20px 0;
   
-    height: 90px;
-    
-    overflow: hidden;
-  }
-  .dynamic-txts li{
-    list-style: none;
-    color:white;
-    font-size: 56px;
-    font-weight: 700;
-    position: relative;
-    top: 0;
-    animation: slide 12s steps(4) infinite;
-  }
-  @keyframes slide {
-    100%{
-      top: -360px;
-    }
-  }
-  .dynamic-txts li span{
-    position: relative;
-   
-    line-height: 90px;
-  }
-  .dynamic-txts li span::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-   
-    border-left: 0px solid #FC6D6D;
-    animation: typing 3s steps(10) infinite;
-  }
-  @keyframes typing {
-    40%, 60%{
-      left: calc(100% + 30px);
-    }
-    100%{
-      left: 0;
-    }
+}
+
+#tech{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,auto);
+  gap: 50px;
+  margin: auto;
+ margin-top: 50px;
+
+}
+#tech>div{
+  display: flex;
+  padding: 20px 30px;
+  background: #222222;
+  box-shadow: 0px 30px 30px rgb(0 0 0 / 10%);
+ 
+  border-radius: 10px;
+  display: flex;
+ 
+}
+.languages .path{
+  display: flex;
+ text-align: left;
+}
+.languages .lang-right img{
+  width: 100px;
+  height: 100px; 
+
+ 
+}
+
+.languages .lang-left{
+
+  margin-right: 10px;
+}
+
+.path-icon{
+  display: inline-block;
+  vertical-align: middle;
+}
+.path-lable {
+  text-transform: uppercase !important;
+  font-size: 13px !important;
+  color: #ec008c;
+  margin-bottom: 10px;
+}
+.path-title {
+  font-size: 22px !important;
+  margin-bottom: 5px;
+}
+.path-courses span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #aaaaaa;
+}
+.path-courses{
+  margin-bottom: 20px;
+}
+
+.arrow{
+  color: #ec008c;
+}
+
+#spacer{ 
+  background: #222222;
+  width: 100%;
+  height: 200px;
+  margin-top: 120px;
+}
+#lower-middle{
+  background: #222222;
+  width: 100%;
+  height: 1680px;
+margin-top: -35px;
+}
+#features{
+  width: 90%;
+  height: auto;
+  
+  margin: auto;
+ 
+}
+#features-grid{
+  display: grid;
+  grid-template-columns: 1 ,1fr;
+  grid-template-rows: repeat(3,455.93px);
+  gap: 50px;
+
+}
+#features-grid>div{
+background-color: #222;
+
+
+}
+.fetures-grid1{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.fetures-grid1 div{
+  width: 50%;
+ 
+}
+.fetures-grid1 div:first-child{
+ padding: 40px 20px 0px 20px;
+ 
+}
+.fetures-grid1 img{
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#fetures-grid3{
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:1, 100%;
+gap: 30px;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+#fetures-grid3 div{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+}
+#features h3{
+  font-size: 32px;
+}
+
+#fetures-grid3 img{ 
+  width: 251px;
+  height: 20px;
+}
+#fetures-grid3 div{
+  padding:50px 30px 0px 30px
+}
+#fetures-grid3 div p{
+  font-size: 17px;
+}
+#discover{
+  width: 100%;
+  height: 671.74px;
+  padding-top: 100px;
+}
+#discover-innercontent{
+  width: 90%;
+  height: 80%;
+  margin: auto;
+}
+#discover-innercontent>h6{
+  text-align: left;
+  color: #e40084 !important;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+#discover-innercontent>h3{
+font-size: 32px;
+margin-top: -5px;
+}
+#discover-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 387px;
+gap: 10px;
+}
+
+#discover-grid>div>img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+#discover-grid>div h6{
+  color: #ffba0e ;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top:10px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  text-align: left;
 }
