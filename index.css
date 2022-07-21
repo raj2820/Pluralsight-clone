@@ -1,5 +1,5 @@
 *{
-    font-family: "PS Commons",sans-serif;
+  font-family: "PS Commons",sans-serif;
 }
 #mid1{
 width: 100%;
@@ -9,127 +9,127 @@ background-color: black;
 background-size: contain;
 position: absolute;
 left: 0;
-   right: 0;
+ right: 0;
 top: 570px;
 
 }
 #org{
-    width: 60%;
-    height: auto;
- 
-    margin: auto;
-    text-align: center;
-    
+  width: 60%;
+  height: auto;
+
+  margin: auto;
+  text-align: center;
+  
 }
 #org-logo{
 
-    display: flex;
-   
-  width: 100%;
-  margin: auto;
+  display: flex;
+ 
+width: 100%;
+margin: auto;
 
 }
 #org-logo>div{
 
-    width: auto;
-    height: auto;
-    margin: auto;
+  width: auto;
+  height: auto;
+  margin: auto;
 }
 h6{
- 
-    font-family: 'PS Commons Bold';
-    font-weight: normal !important;
-    text-transform: uppercase;
-    line-height: 21px;
-    display: block;
-    font-size: 1em;
-    font-family: "PS Commons",sans-serif;
-    font-weight: bold;
-    height: 21px;
+
+  font-family: 'PS Commons Bold';
+  font-weight: normal !important;
+  text-transform: uppercase;
+  line-height: 21px;
+  display: block;
+  font-size: 1em;
+  font-family: "PS Commons",sans-serif;
+  font-weight: bold;
+  height: 21px;
 }
 #top{
-    background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/hero-illustration.png);
-    width: 100%;
-    height: 370px;
-    background-size: contain;
-  margin-top: 80px;
-  
-   padding-top: 100px;
-   position: absolute;
-   top: 0;
-   left: 0;
-   right: 0;
+  background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/hero-illustration.png);
+  width: 100%;
+  height: 370px;
+  background-size: contain;
+margin-top: 80px;
+
+ padding-top: 100px;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
 }
 body{
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 #build{
-    width: 40%;
-    margin: auto;
-    background-color: transparent;
-    margin-top: 85px;
-    color: white;
-    
+  width: 40%;
+  margin: auto;
+  background-color: transparent;
+  margin-top: 85px;
+  color: white;
+  
 }
 
 ul{
-    margin-top: -14px;
-    margin-left: -20px;
-    line-height: 100%;
+  margin-top: -14px;
+  margin-left: -20px;
+  line-height: 100%;
 }
 .wrapper{
-    display: flex;
-  }
-  .wrapper .static-txt{
-    color: #fff;
-    text-rendering: optimizeLegibility;
-    font-size: 56px;
-    font-weight: 700;
-    justify-content: center;
-    align-items: center;
-    line-height: 100%;
-  }
-  .wrapper .dynamic-txts{
+  display: flex;
+}
+.wrapper .static-txt{
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  font-size: 56px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  line-height: 100%;
+}
+.wrapper .dynamic-txts{
+
+  height: 90px;
   
-    height: 90px;
-    
-    overflow: hidden;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color:white;
+  font-size: 56px;
+  font-weight: 700;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
   }
-  .dynamic-txts li{
-    list-style: none;
-    color:white;
-    font-size: 56px;
-    font-weight: 700;
-    position: relative;
-    top: 0;
-    animation: slide 12s steps(4) infinite;
+}
+.dynamic-txts li span{
+  position: relative;
+ 
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+ 
+  border-left: 0px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
   }
-  @keyframes slide {
-    100%{
-      top: -360px;
-    }
-  }
-  .dynamic-txts li span{
-    position: relative;
-   
-    line-height: 90px;
-  }
-  .dynamic-txts li span::after{
-    content: "";
-    position: absolute;
+  100%{
     left: 0;
-    height: 100%;
-    width: 100%;
-   
-    border-left: 0px solid #FC6D6D;
-    animation: typing 3s steps(10) infinite;
   }
-  @keyframes typing {
-    40%, 60%{
-      left: calc(100% + 30px);
-    }
-    100%{
-      left: 0;
-    }
 }
