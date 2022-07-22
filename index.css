@@ -50,7 +50,17 @@ top: 530px;
     
 }
 #top{
-    background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/hero-illustration.png);
+    background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/hero-illustration.png) ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+    background-repeat: no-repeat;
+   
+    
+    
     width: 100%;
     height: 370px;
     background-size: contain;
@@ -289,7 +299,7 @@ padding-right: 10px;
 }
 #discover{
   width: 100%;
-  height: 671.74px;
+  height: 580px;
   padding-top: 100px;
 }
 #discover-innercontent{
@@ -330,4 +340,48 @@ gap: 10px;
   text-transform: uppercase;
   line-height: 1.4;
   text-align: left;
+}
+#rayan{
+  width: 100%;
+  height: 514.3px;
+  display: grid;
+  grid-template-columns:55% 45%;
+  grid-template-rows: 100%;
+}
+
+#rayanimg{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/targeted_section/targeted-parsys-customer-types-1/generic_block/parsys/columns/column-parsys-1/generic_block/image-res.img.eda54712-d00b-4274-9506-7e06a0a9c4c1.png);
+ background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+   
+    color: #eee !important;
+  }
+  .darker:before{
+    background-color: rgba(0,0,0,0.8);
+  }
+
+   
+  
+
+#rayanimg h4{
+  font-size: 78px !important;
+  line-height: 1!important;
+  letter-spacing: normal;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  
+}
+#rayanimg~div{
+  background-color: rgb(24, 157, 179);
+  height: 100%;
+
+}
+#rayanname{
+  margin-left: 20px;
+  margin-top: 40px;
 }
