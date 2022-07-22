@@ -1,5 +1,5 @@
 #build{
-    width: 40%;
+    width: 50%;
     margin: auto;
     background-color: transparent;
     margin-top: 85px;
@@ -67,4 +67,46 @@ ul{
     100%{
       left: 0;
     }
+}
+
+
+
+@media all and (min-width:320px) and (max-width:480px){
+
+
+  #build{
+    width: 100%;
+    margin: auto;
+    background-color: transparent;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+.wrapper .static-txt{
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  font-size: 25px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  line-height: 100%;
+  margin-left: 50px;
+}
+
+.dynamic-txts li{
+  list-style: none;
+  color:white;
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+ul{
+  margin-top: -30px;
+  margin-left: -25px;
+  line-height: 100%;
+}
 }

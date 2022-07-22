@@ -1,4 +1,5 @@
 #navbar{ 
+  width: 100%;
     font-family: "PS Commons",sans-serif;
     display: flex;
     align-items: center;
@@ -100,4 +101,21 @@ img{
     border: 0px;
      font-size: 15px;
     font-weight: 700;
+  }
+
+
+
+  @media all and (min-width:320px) and (max-width:480px){
+
+
+    #rightnav{
+      display: none;
+    
+    }
+    #leftnav{
+      display: none;
+    }
+    #navbar{
+      width: 50%;
+    }
   }
