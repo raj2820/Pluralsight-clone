@@ -173,3 +173,27 @@
   color: #fff;
   
  }
+ @media all and (min-width:320px) and (max-width:480px){
+ #right{
+  display: none;
+ }
+          }       
+ 
+          @media all and (min-width:481px) and (max-width:769px){
+            #img{
+              position: relative;
+              top:210px;
+              left:30px;
+             
+          }
+          form {
+            margin:  auto;
+            margin-top: 40px;
+            width: 80%;
+           
+            align-items: center;
+          
+            
+          }
+  
+        }
