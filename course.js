@@ -12,21 +12,21 @@ let courseData=[
     level:"Beginner",
     subject:"ITOps",
     productID:1,
-    price:1400
+    price:500
 },
 {
     name:"Maintaining,Monitoring and Troubleshooting Kubernetes",
     level:"Intermediate",
     subject:"SoftwareDevelopment",
     productID:2,
-    price:1400
+    price:1200
 },
 {
     name:"Agile in the Real World",
     level:"Intermediated",
     subject:"ITOps",
     productID:3,
-    price:1400
+    price:1000
 },
 {
     name:"Risk Assessment and Management",
