@@ -2,8 +2,10 @@ footer{
     background-color: #222;
     width: 100%;
     height:auto;
-   
+   position: absolute;
     padding-top: 100px;
+    right: 0;
+    left: 0;
   }
   #footer-inner1{
     width: 90%;
