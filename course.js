@@ -147,7 +147,8 @@ name.innerText=ele.name;
 
 let level=document.createElement("h4")
 level.innerText=ele.level;
-
+let price=document.createElement("h6")
+price.innerText=ele.price
 let cart=document.createElement("button");
 cart.innerText="Add to Cart"
 cart.addEventListener("click",function(){
@@ -155,7 +156,7 @@ cart.addEventListener("click",function(){
 })
 let hr=document.createElement("hr")
 
-product.append(name,level,cart,hr)
+product.append(name,level,price,cart,hr)
 document.querySelector("#parent").append(product)
 
 });

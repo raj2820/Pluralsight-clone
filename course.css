@@ -59,9 +59,7 @@ div{
 *{
     font-family: "PS Commons",sans-serif;
 }
-#search-content{
-    border: 1px solid white;
-}
+
 #course-contents{
     width: 100%;
     height: auto;
@@ -104,6 +102,7 @@ border: 1px solid white;
 #parent>div{
     margin-top: 20px;
     box-shadow: 0 10px 20px 0 rgb(0 0 0 / 20%);
+   padding: 20px;
 }
 #main{
     width: 90%;
